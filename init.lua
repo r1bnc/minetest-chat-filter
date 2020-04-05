@@ -4,13 +4,11 @@
     --English
     "fuck",
     "bitch",
-    "ass",
     "shit",
     "shitstorm",
     "shitstain",
     "dick",
     "cock",
-    "cunt",
     "nigger",
     "faggot",
     "gay",
