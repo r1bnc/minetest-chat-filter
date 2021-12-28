@@ -151,7 +151,7 @@ minetest.register_chatcommand("me", {
 
 	elseif allow_message == false then
 
-    minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a curse word in the sentense it didn't get send sorry!"))
+    minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a curse word in the sentence!"))
     return true
    end
    
@@ -188,7 +188,7 @@ minetest.register_chatcommand("msg", {
 		
 		elseif allow_message == false then
 
-		minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a curse word in the sentense it didn't get send sorry!"))
+		minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a curse word in the sentence!"))
 		return true
 		end
 		
@@ -207,7 +207,7 @@ minetest.register_chatcommand("msg", {
 	
 	elseif allow_message == false then
 
-    minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a bad word in the sentense it didn't get send sorry!"))
+    minetest.chat_send_player(name, minetest.colorize("#000000" ,"**You had a bad word in the sentence!"))
     return true
 	end
 
